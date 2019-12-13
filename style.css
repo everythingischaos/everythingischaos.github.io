@@ -1,0 +1,13 @@
+body {
+  background-size: 1px;
+}
+p,a {
+  color: #FF00CC;
+  font-family: "Comic Sans MS";
+  font-size:2em;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.readable {
+  background-color: green;
+}
