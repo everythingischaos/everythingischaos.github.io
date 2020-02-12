@@ -9,5 +9,32 @@ p,a {
   margin-bottom:0px;
 }
 .readable {
+  background-color: yellow;
+}
+.chaosButtons {
   background-color: green;
+  color: #FF00CC;
+  width: 20%;
+  height: 10%;
+  font-family: Comic Sans MS;
+  border: none;
+  padding: none;
+}
+p,h1,h2,h3,h4,h5,h6 {
+  color: #FF00CC;
+  font-family: Comic Sans MS;
+}
+#ram {
+  /* display: flex; */
+  position:fixed;
+  top:0;
+  right:0;
+  width: 400px;
+  background-color: aqua;
+}
+#ram p {
+  font-size: 30px;
+}
+#ram #ad {
+  font-size:15px;
 }
