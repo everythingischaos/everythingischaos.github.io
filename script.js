@@ -56,3 +56,11 @@ function openPadreSecret() {
 function closePadreSecret() {
   document.getElementById("padreSecret").innerHTML = "i think"
 }
+
+const armageddon = false;
+if(armageddon) {
+  var links = document.getElementsByTagName("A");
+  for(i=0; i<links.length; i++) {
+    links[i].href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  }
+}
