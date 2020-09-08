@@ -252,13 +252,13 @@ var countdownS = 0;
 
 var d = new Date();
 var weekday = new Array(7);
-weekday[1] = "Sunday";
-weekday[2] = "Monday";
-weekday[3] = "Tuesday";
-weekday[4] = "Wednesday";
-weekday[5] = "Thursday";
-weekday[6] = "Friday";
-weekday[7] = "Saturday";
+weekday[0] = "Sunday";
+weekday[1] = "Monday";
+weekday[2] = "Tuesday";
+weekday[3] = "Wednesday";
+weekday[4] = "Thursday";
+weekday[5] = "Friday";
+weekday[6] = "Saturday";
 
 var n = weekday[d.getDay()];
 
@@ -267,7 +267,7 @@ if(d.getDay() == 1 || d.getDay() == 7) {
 }else {
 $('#day').text(n);
 
-periods = schedule[d.getDay()-2].schedule;
+periods = schedule[d.getDay()-1].schedule;
 // periods = rally;
 // periods = assembly;
 
