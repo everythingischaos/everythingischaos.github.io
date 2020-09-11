@@ -313,8 +313,8 @@ function yee() {
   currentMS = current.getTime()
   for (var i = 0; i <= timesMS.length; i++) {
     if (currentMS < timesMS[i]+60000) {
-      countdownM = Math.ceil((timesMS[i] - currentMS) / 60000)
-      countdownS = ((timesMS[i] - currentMS) % 60000) / 1000;
+      countdownM = Math.ceil((timesMS[i] - currentMS - 60000) / 60000)
+      countdownS = ((timesMS[i] - currentMS - 60000) % 60000) / 1000;
       next = periods[Math.floor(i / 2)].name;
       if (!isNaN(next)) {
         next = "period " + next;
