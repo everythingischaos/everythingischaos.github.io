@@ -262,7 +262,7 @@ weekday[6] = "Saturday";
 
 var n = weekday[d.getDay()];
 
-if(d.getDay() == 1 || d.getDay() == 7) {
+if(d.getDay() == 0 || d.getDay() == 6) {
   $('#day').text(`No school today, it be ${n}, pay no attention to the thing below this im too lazy to get rid of it`);
 }else {
 $('#day').text(n);
